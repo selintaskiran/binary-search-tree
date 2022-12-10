@@ -1,0 +1,19 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+a- Eğer root 5 olursa. Rootun sağında 6,7,8,9 ve solunda 0,1,2,3,4 bulunur.
+b- 5in sağına 2, soluna 7 yazdık. Böylelikle 2nin sağında 3, solunda 1 oldu. 7nin ise sağında 8, solunda 6 oldu
+c- 1in soluna 0 yerleşti.
+d- 7nin sağına 8, soluna 6 yerleşti.
+e- 6nın soluna 5 yerleşti.
+f- 8in soluna 9 yerleşti ve böylelikle alttaki gibi bir binary search tree elde ettik.
+
+                              5
+                           /    \
+                          /      \                
+                         /        \
+                        2          7
+                       / \        / \
+                      /   \      /   \
+                     1     3    6     8
+                    /          /       \
+                   /          /         \
+                  0          5           9
